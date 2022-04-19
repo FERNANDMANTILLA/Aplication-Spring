@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,700;1,900&display=swap');
+
+
+
+
+
+.intro{
+position :fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+background: linear-gradient(110deg, #151515 50%, #161616 52%);
+transition: 1s;
+font-size: 2.8rem;
+}
+
+.logo-header{
+   position: absolute;
+    top:50%;
+    color: white;
+}
+
+.logo-2{
+    position: relative;
+    display: inline-block;
+    bottom: -50px;
+    opacity: 0;
+}
+
+.logo-2.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+
+}
+
+.logo-2.fade{
+    bottom:25px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+@media (max-width:1200px){
+    .intro{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        }
+
+    .logo-header{
+            position: absolute;
+             top:50%;
+             color: white;
+         }
+}
+
+@media (max-width:900px){
+    .intro{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        }
+    .logo-header{
+            position: absolute;
+             top:50%;
+             color: white;
+         }
+}
+
+@media (max-width:450px){
+    .intro{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        }
+        .logo-header{
+            position: absolute;
+             top:50%;
+             color: white;
+         }
+}
