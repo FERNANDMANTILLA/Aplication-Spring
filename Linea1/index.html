@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="appGeneral">
+      <div id="cabezera">
+        <p class="frase-principal">#LÍNEA1TeLlevaSanoYSeguro</p>
+      </div>
+      <div id="cabezera2">
+        <header>
+          <div class="container">
+            <div
+              class="cabecera d-flex justify-content-between align-items-start"
+            >
+              <a href="https://www.lineauno.pe">
+                <figure class="cabeceraLogo mt-1 pb-1">
+                  <img
+                    id="imagenLogo"
+                    data-src="https://www.lineauno.pe/wp-content/themes/linea1/img/logo.svg"
+                    src="https://www.lineauno.pe/wp-content/themes/linea1/img/logo.svg"
+                    class="lazyloaded"
+                  />
+                </figure>
+              </a>
+              <div
+                class="mt-2 pb-1 d-none d-sm-none d-md-none d-lg-block seccionBuscar"
+              >
+                <form id="buscadorHome" action="" method="get">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Escribe tu duda aquí"
+                    data-buscador="true"
+                    class="buscadorLudik"
+                  />
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+              <div
+                id="cabeceraServicio"
+                class="d-none d-sm-none d-md-none d-lg-block"
+              >
+                <div id="estadoServicio">
+                  <div>
+                    <div class="seccionPC">
+                      <div id="hora" class="hora"onload="showTime()"></div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
